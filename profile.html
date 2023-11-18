@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Profile</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="sidebar">
+        <h3>Elzero</h3>
+        <ul>
+          <li>
+            <a class="" href="index.html"
+              ><i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span class="hide-mobile">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="settings.html"
+              ><i class="fa-solid fa-gear fa-fw"></i>
+              <span class="hide-mobile">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-center fs-14 c-black rad-6 p-10"
+              href="profile.html"
+              ><i class="fa-regular fa-user fa-fw"></i>
+              <span class="hide-mobile">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="projects.html"
+              ><i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="hide-mobile">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="courses.html"
+              ><i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span class="hide-mobile">Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="friends.html"
+              ><i class="fa-regular fa-circle-user fa-fw"></i>
+              <span class="hide-mobile">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="files.html"
+              ><i class="fa-regular fa-file fa-fw"></i>
+              <span class="hide-mobile">Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="plans.html"
+              ><i class="fa-regular fa-credit-card fa-fw"></i>
+              <span class="hide-mobile">Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <!-- header -->
+        <div class="head">
+          <div class="search">
+            <input type="search" placeholder="Type A Keyword" />
+          </div>
+          <div class="icons">
+            <span><i class="fa-regular fa-bell fa-lg"></i></span>
+            <img src="imgs/avatar.png" alt="avatar" />
+          </div>
+        </div>
+        <h1>Profile</h1>
+        <!-- profile -->
+        <div class="profile-page">
+          <div class="overview">
+            <div class="profile-img">
+              <img class="avatar" src="imgs/avatar.png" alt="avatar" />
+              <h3>Osama Elzero</h3>
+              <p>Level 20</p>
+              <div class="level">
+                <span style="width: 70%"></span>
+              </div>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p>550 Rating</p>
+            </div>
+            <div class="info-box">
+              <!-- general info -->
+              <div class="box">
+                <h4>General Information</h4>
+                <div>
+                  <span>Full Name </span>
+                  <span>Osama Mohamed</span>
+                </div>
+                <div>
+                  <span>Gender: </span>
+                  <span>Male</span>
+                </div>
+                <div>
+                  <span>Country: </span>
+                  <span>Egypt</span>
+                </div>
+                <div>
+                  <input type="checkbox" checked />
+                </div>
+              </div>
+              <!-- personal information -->
+              <div class="box">
+                <h4>Personal Information</h4>
+                <div>
+                  <span>Email:</span>
+                  <span>o@nn.sa</span>
+                </div>
+                <div>
+                  <span>Phone:</span>
+                  <span>019123456789</span>
+                </div>
+                <div>
+                  <span>Date Of Birth:</span>
+                  <span>25/10/1982</span>
+                </div>
+                <div>
+                  <input type="checkbox" />
+                </div>
+              </div>
+              <!-- job information -->
+              <div class="box">
+                <h4>Job Information</h4>
+                <div>
+                  <span>Title:</span>
+                  <span>Full Stack Developer</span>
+                </div>
+                <div>
+                  <span>Programming Language:</span>
+                  <span>Python</span>
+                </div>
+                <div>
+                  <span>Years Of Experience:</span>
+                  <span>15+</span>
+                </div>
+                <div>
+                  <input type="checkbox" checked="" />
+                </div>
+              </div>
+              <!-- billing information -->
+              <div class="box">
+                <h4>Billing Information</h4>
+                <div>
+                  <span>Payment Method:</span>
+                  <span>Paypal</span>
+                </div>
+                <div>
+                  <span>Email:</span>
+                  <span>email@website.com</span>
+                </div>
+                <div>
+                  <span>Subscription:</span>
+                  <span>Monthly</span>
+                </div>
+                <div>
+                  <input type="checkbox" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="other-data">
+            <!-- my skills -->
+            <div class="my-skills">
+              <h2>My Skills</h2>
+              <p>Complete Skills List</p>
+              <ul>
+                <li>
+                  <span>HTML</span>
+                  <span>Pugjs</span>
+                  <span>HAML</span>
+                </li>
+                <li>
+                  <span>CSS</span>
+                  <span>SASS</span>
+                  <span>Stylus</span>
+                </li>
+                <li>
+                  <span>JavaScript</span>
+                  <span>TypeScript</span>
+                </li>
+                <li>
+                  <span>Vuejs</span>
+                  <span>Reactjs</span>
+                </li>
+                <li>
+                  <span>Jest</span>
+                  <span>Jasmine</span>
+                </li>
+                <li>
+                  <span>PHP</span>
+                  <span>Laravel</span>
+                </li>
+                <li>
+                  <span>Python</span>
+                  <span>Django</span>
+                </li>
+              </ul>
+            </div>
+            <!-- latest activities -->
+            <div class="latest-activities">
+              <h2>Latest Activities</h2>
+              <p>Latest Activities Done By The User</p>
+              <div class="box">
+                <img src="imgs/activity-01.png" alt="activity-01" />
+                <div class="info">
+                  <span>Store </span>
+                  <span>Bought The Mastering Python Course</span>
+                </div>
+                <div class="date">
+                  <span>18:10 </span>
+                  <span>Yesterday</span>
+                </div>
+              </div>
+              <div class="box">
+                <img src="imgs/activity-02.png" alt="activity-02" />
+                <div class="info">
+                  <span>Academy</span>
+                  <span>Got The PHP Certificate</span>
+                </div>
+                <div class="date">
+                  <span>16:05</span>
+                  <span>Yesterday</span>
+                </div>
+              </div>
+              <div class="box">
+                <img src="imgs/activity-03.png" alt="activity-03" />
+                <div class="info">
+                  <span>Badges</span>
+                  <span>Unlocked The 10 Skills Badge</span>
+                </div>
+                <div class="date">
+                  <span>18:05</span>
+                  <span>Yesterday</span>
+                </div>
+              </div>
+              <div class="box">
+                <img src="imgs/activity-01.png" alt="activity-01" />
+                <div class="info">
+                  <span>Store</span>
+                  <span>Bought The Typescript Course</span>
+                </div>
+                <div class="date">
+                  <span>12:05</span>
+                  <span>Yesterday</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
